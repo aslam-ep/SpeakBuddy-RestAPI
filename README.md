@@ -7,8 +7,11 @@ This repository holds the flask api portion of the speak buddy application for r
 ```
 $ pip install -r requirements.txt
 ```
+2. Create a folder named Model on this path.
 
-2. Then make sure that mobile phone and your Pc is connected to the same network.
+3. Download the model and parameter file from the google drive and place it on the Model folder.
 
-3. Then find the ip of your pc and paste this ip address on the RetrofitClient.java file of the android portion which can be found on this path:
+4. Then make sure that mobile phone and your Pc is connected to the same network.
+
+5. Then find the ip of your pc and paste this ip address on the RetrofitClient.java file of the android portion which can be found on this path:
    SpeakBudy/app/src/main/java/com/hector/speakbudy/API/
